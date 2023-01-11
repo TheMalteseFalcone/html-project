@@ -1,0 +1,285 @@
+@charset "utf-8";
+
+*{
+	box-sizing: border-box;
+   font-family: 'Oswald', sans-serif;
+	
+}
+
+#container {
+	width: 100%;
+	height: 100%;
+	background-color: #615353;
+	background-position: center;
+	background-size: cover;
+	
+}
+.navbar {
+	height: 12%;
+	display: flex;
+	align-items: center;
+	background-color: yellow;
+	color: black;
+}
+#logo
+{
+ width: 100px;
+}
+nav {
+	flex: 1;
+	text-align: left;
+	text-indent: 30px;
+	color: black;
+}
+nav ul li {
+	list-style: none;
+	display: inline-block;
+	color: black;
+}
+nav ul li a {
+	text-decoration: none;
+	color: black;
+	
+	
+}
+
+nav ul li a:hover {
+	text-decoration: underline;
+	color: black;
+	text-decoration-color: red;
+	transition-delay: 6s;
+	transition-duration: 3s;
+	
+}
+
+
+.footer {
+ width: 100%;
+padding: 100px 15%;
+background-color: #333;
+display: flex;
+}
+.footer div {
+	text-align: center;
+}
+.col2 {
+flex-grow: 2;
+}
+.footer div h3{
+	font-weight: 300;
+	margin-bottom: 30px;
+	letter-spacing: 1px;
+	color: black;
+}
+.col1 a {
+display: block;
+text-decoration: none;
+color: #efefef;
+margin-bottom: 10px;
+}
+.col2 a {
+display: block;
+text-decoration: none;
+color: #efefef;
+margin-bottom: 10px;
+}
+.col3 #erg {
+display: block;
+text-decoration: none;
+color: #efefef;
+margin-bottom: 10px;
+}
+
+#maincontainer2 {
+display: flex;
+height: 88%;
+align-content: center;	
+}
+
+
+.yazi {
+display: flex;
+text-align: center;
+align-self: center;
+flex-direction: column;
+color: #fff;
+padding-top: 50px;
+
+}
+	
+#containerhakkinda {
+	width: 100%;
+	height: 100%;
+	background-color: #615353;
+	background-position: center;
+	background-size: cover;
+	
+}
+ol li {
+	list-style: none;
+	
+}
+
+ul li {
+	list-style-position:inside;
+}
+
+.paz{
+	word-spacing: 2px;
+	word-wrap: break-word;
+	line-height: 15px;
+	font-size: 15px;
+}
+
+.lezzetler {
+	float: left;
+}
+
+.containerss {
+	display: flex;
+text-align: center;
+align-self: center;
+flex-direction: column;
+color: #fff;
+padding-top: 50px;
+height: 130vh;
+}
+.row {
+	display: flex;
+	height: 88%;
+	align-items: center;
+}
+.col {
+flex-basis: 50%;	
+}
+h1 {
+	color: #fff;
+	font-size: 100px;
+}
+p{
+	font-size: 21px;
+	color: #fff;
+	line-height: 15px;
+	
+}
+.card {
+width: 200px;
+height: 230px;
+display: inline-block;
+border-radius: 20px;
+padding: 15 25px;
+box-sizing: border-box;
+cursor: pointer;
+margin-right: 15px;
+margin-top: 15px;
+background-position: center;
+background-size: cover;
+}
+.card1{background-image: url("../img/katmeri.jpg")}
+.card2{background-image: url("../img/koftesi.jpg")}
+.card3{background-image: url("../img/pehli.jpg")}
+.card4{background-image: url("../img/Sivaskebabı.jpg")}
+.card5{background-image: url("../img/kelletatlisi.jpg")}
+.card6{background-image: url("../img/sivasmantisi.jpg")}
+h5 {
+	font-size: 25px;
+	
+}
+.card:hover {
+	 opacity:0.8;
+   filter:brightness(120%);
+    border-width:2px;
+    border-color:orange;
+    border-style:solid;
+      box-sizing: border-box;
+	 transform:translateY(-10px);
+}
+
+.contact-section{
+    width: 100%;
+    min-height: 100vh;
+    background: url("../../img/d_tekke2.jpg");
+    background-size: cover;
+    background-position: center center;
+    padding-top: 50px;
+}
+.container{
+    width: 92%;
+    margin: 0 auto;
+}
+.form-box{
+    max-width: 600px;
+    background: rgba(19,17,17,0.76);
+    padding: 35px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.form-box form{
+    width: 100%;
+}
+.form-box form input{
+    width: 100%;
+    height: 45px;
+    border: none;
+    outline: none;
+    padding: 0  20px;
+    margin-bottom: 10px;
+    border: 1px solid rgba(255,0,0,0.82);
+    border-radius: 5px;
+    color: black;
+}
+.form-box form input[type="text"]{
+    width: 49%;
+    height: 45px;
+    border: none;
+    outline: none;
+    padding: 0  20px;
+    margin-bottom: 10px;
+    border: 1px solid #f4732a;
+}
+.form-box form input[type="text"]:nth-child(2){
+    float: right;
+}
+.form-box form textarea{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding:   20px;
+    margin-bottom: 10px;
+
+    border: 1px solid rgba(255,0,0,0.82);
+    border-radius: 5px;
+    
+    color: black;
+}
+.form-box form input[type="submit"]{
+  background-color: rgba(255,0,0,0.82);
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+ 
+@media (max-width: 768px) {
+    .form-box{
+        max-width: 100%;
+    }
+    .form-box form input[type="text"]{
+        width: 100%;
+    }
+}
+
+#vlightbox1 {
+ display: flex;
+justify-content: center;
+flex-direction: column;
+}
+
+#containerlezet {
+	width: 100%;
+	height: 130vh;
+	background-color: #615353;
+	background-position: center;
+	background-size: cover;
+	
+	
+}

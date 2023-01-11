@@ -1,0 +1,193 @@
+@charset "utf-8";
+
+*{
+	box-sizing: border-box;
+   font-family: 'Oswald', sans-serif;
+	
+}
+
+#container {
+	width: 100%;
+	height: 100%;
+	background-color: #615353;
+	background-position: center;
+	background-size: cover;
+	
+}
+.navbar {
+	height: 12%;
+	display: flex;
+	align-items: center;
+	background-color: yellow;
+	color: black;
+}
+#logo
+{
+ width: 100px;
+}
+nav {
+	flex: 1;
+	text-align: left;
+	text-indent: 30px;
+	color: black;
+}
+nav ul li {
+	list-style: none;
+	display: inline-block;
+	color: black;
+}
+nav ul li a {
+	text-decoration: none;
+	color: black;
+	
+	
+}
+
+.footer {
+ width: 100%;
+padding: 100px 15%;
+background-color: #333;
+display: flex;
+}
+.footer div {
+	text-align: center;
+}
+.col2 {
+flex-grow: 2;
+}
+.footer div h3{
+	font-weight: 300;
+	margin-bottom: 30px;
+	letter-spacing: 1px;
+	color: black;
+}
+.col1 a {
+display: block;
+text-decoration: none;
+color: #efefef;
+margin-bottom: 10px;
+}
+.col2 a {
+display: block;
+text-decoration: none;
+color: #efefef;
+margin-bottom: 10px;
+}
+.col3 #erg {
+display: block;
+text-decoration: none;
+color: #efefef;
+margin-bottom: 10px;
+}
+
+#maincontainer2 {
+display: flex;
+height: 88%;
+align-content: center;	
+}
+
+
+.yazi {
+display: flex;
+text-align: center;
+align-self: center;
+flex-direction: column;
+color: #fff;
+padding-top: 50px;
+
+}
+	
+#containerhakkinda {
+	width: 100%;
+	height: 100%;
+	background-color: #615353;
+	background-position: center;
+	background-size: cover;
+	
+}
+ol li {
+	list-style: none;
+	
+}
+
+ul li {
+	list-style-position:inside;
+}
+
+.paz{
+	word-spacing: 2px;
+	word-wrap: break-word;
+	line-height: 15px;
+	font-size: 15px;
+}
+
+.lezzetler {
+	float: left;
+}
+
+.containerss {
+	display: flex;
+text-align: center;
+align-self: center;
+flex-direction: column;
+color: #fff;
+padding-top: 50px;
+}
+.row {
+	display: flex;
+	height: 88%;
+	align-items: center;
+}
+.col {
+flex-basis: 50%;	
+}
+h1 {
+	color: #fff;
+	font-size: 100px;
+}
+p{
+	font-size: 21px;
+	color: #fff;
+	line-height: 15px;
+	
+}
+.card {
+width: 200px;
+height: 230px;
+display: inline-block;
+border-radius: 20px;
+padding: 15 25px;
+box-sizing: border-box;
+cursor: pointer;
+margin-right: 15px;
+margin-top: 15px;
+background-position: center;
+background-size: cover;
+}
+.card1{background-image: url("katmeri.jpg")}
+.card2{background-image: url("koftesi.jpg")}
+.card3{background-image: url("pehli.jpg")}
+.card4{background-image: url("Sivaskebabı.jpg")}
+.card5{background-image: url("kelletatlisi.jpg")}
+.card6{background-image: url("sivasmantisi.jpg")}
+h5 {
+	font-size: 25px;
+	
+}
+.card:hover {
+	 opacity:0.8;
+   filter:brightness(120%);
+    border-width:2px;
+    border-color:orange;
+    border-style:solid;
+      box-sizing: border-box;
+	 transform:translateY(-10px);
+}
+
+.contact-section{
+    width: 100%;
+    min-height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.5)), url("d_tekke2.jpg");
+    background-size: cover;
+    background-position: center center;
+    padding-top: 50px
